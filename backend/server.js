@@ -126,13 +126,13 @@ app.use("/api/simulate-step", simulateStepRoute);
 // ============================================================
 
 export default app;
-const PORT = process.env.PORT || 5000;
+// const PORT = process.env.PORT || 5000;
 
-if (!process.env.VERCEL) {
-  app.listen(PORT, () => {
-    console.log(`🚀 PickyPal backend running on http://localhost:${PORT}`);
-  });
-}
+// if (!process.env.VERCEL) {
+//   app.listen(PORT, () => {
+//     console.log(`🚀 PickyPal backend running on http://localhost:${PORT}`);
+//   });
+// }
 
 
 
